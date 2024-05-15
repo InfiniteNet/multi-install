@@ -723,7 +723,7 @@ version: "3.7"
 services:
 
   traefik:
-    image: traefik:latest
+    image: traefik:v2.11.2
     command:
       - "--api.dashboard=true"
       - "--providers.docker.swarmMode=true"
